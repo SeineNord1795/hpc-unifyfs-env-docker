@@ -1,0 +1,24 @@
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+docker-compose.*.yml
+
+# Common temporary files
+*.log
+*.lock
+
+# Local environment files
+.env
+.env.*
+!/.env.example
+
+# Build artifacts
+/build/
+/dist/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*~
